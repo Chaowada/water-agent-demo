@@ -1,0 +1,12 @@
+[project]
+name = "water-agent-demo"
+version = "1.0.0"
+description = "脱敏水站订单 Agent：状态编排、写操作安全边界、只读 MCP 与可复现 RAG 评测"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+langgraph = ["langgraph>=0.2,<2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
